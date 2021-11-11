@@ -1,0 +1,56 @@
+*{
+    text-align: center;
+    background-color: cadetblue;
+}
+
+h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.box{
+    width: 90%;
+    height:500px;
+    text-align: left;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.submit{
+    font-family: 'Zen Kurenaido', sans-serif;
+    margin: 10px;
+    width: 50%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.submit:hover{
+    background-color:cornflowerblue;
+    color: white;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.amount{
+    margin: 0 auto;
+}
+
+button{
+    background-color:rgb(78, 158, 223);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin:10px;
+    color:white;
+    border:solid black;
+}
+
+button:hover{
+    background-color: white;
+    color:black;
+}

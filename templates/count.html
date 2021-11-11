@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Word Counter</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="{% static 'style.css' %}" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@300&family=Open+Sans+Condensed:ital,wght@1,300&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+        <!-- font-family: 'Mohave', sans-serif;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Zen Kurenaido', sans-serif; -->
+    </head>
+    <body>
+        <div class="wrapper">
+        <div class="amount">
+            <h1>amount of word is {{countword}}</h1>
+            <a href="/"><button>Back</button></a>
+        </div>
+        </div>
+    </body>
